@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Nick Forge" => "nick@nickforge.com" }
   
-  s.platform     = :ios, '6.0'
+  s.ios.platform = :ios, '6.0'
+  s.osx.platform = :osx, '10.7'
   
   s.source       = { :git => "https://github.com/LIFX/LIFXKit.git", :tag => "v0.5.0" }
   
